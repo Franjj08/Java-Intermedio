@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\Desktop\Java-intermedio\Clase2-InterfacesyLambda\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1552046408.index
+1042155312.index

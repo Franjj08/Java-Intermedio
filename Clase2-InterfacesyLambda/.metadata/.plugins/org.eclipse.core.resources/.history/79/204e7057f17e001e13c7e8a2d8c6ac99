@@ -1,0 +1,12 @@
+package proyecto.lambda.interfaces;
+
+public class Persona {
+	
+	Integer edad ;
+	Integer canttHijos;
+	
+	public Persona(Integer edad, Integer cantHijos) {
+		
+	}
+	
+}

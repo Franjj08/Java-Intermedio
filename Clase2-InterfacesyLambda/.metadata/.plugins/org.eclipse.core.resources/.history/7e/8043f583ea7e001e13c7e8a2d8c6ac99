@@ -1,0 +1,7 @@
+package proyecto.lambda.interfaces;
+
+//Una interfaz funcional es aquella que declara un unico metodo
+public interface Suma {
+	
+	int sumar(int unNumeros, int otroNumero);
+}

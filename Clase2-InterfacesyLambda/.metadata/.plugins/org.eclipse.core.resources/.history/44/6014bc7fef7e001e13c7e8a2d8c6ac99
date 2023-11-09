@@ -1,0 +1,20 @@
+package proyecto.lambda;
+
+import proyecto.lambda.interfaces.Descuento;
+
+public class AppDescuento {
+
+	public static void main(String[] args) {
+		
+		Descuento descuentoDijo = monto -> {
+			if(monto > 500)
+				return monto -500;
+			else
+				return 0.0;
+		};
+		
+		Desceunto descuentoPorcentaje=
+
+	}
+
+}

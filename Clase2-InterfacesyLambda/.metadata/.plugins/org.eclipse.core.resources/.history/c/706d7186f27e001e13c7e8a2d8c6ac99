@@ -1,0 +1,21 @@
+package proyecto.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import proyecto.lambda.interfaces.Persona;
+
+public class AppPersonas {
+
+	public static void main(String[] args) {
+		List<Persona> listaPersonas = new ArrayList<Persona>();
+		
+		listaPersonas.add(new Persona(30,2));
+		listaPersonas.add(new Persona(20,1));
+		listaPersonas.add(new Persona(40,3));
+		
+		Integer suma  = listaPersonas.stream().mapToInt(UnaPersona -> unaPersona.geEdad()).sum();
+		                                //mapar edad queda:[30,20,40]
+	}
+
+}

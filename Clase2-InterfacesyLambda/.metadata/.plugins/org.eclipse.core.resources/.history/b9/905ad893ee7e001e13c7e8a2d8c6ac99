@@ -1,0 +1,8 @@
+package proyecto.lambda.interfaces;
+
+@FunctionalInterface
+public class Descuento {
+	
+	Double aplicar(Double monto);
+
+}
